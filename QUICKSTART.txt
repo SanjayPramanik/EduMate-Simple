@@ -1,0 +1,64 @@
+========================================
+  EduMate Simple - QUICK START
+========================================
+
+🎯 FASTEST WAY TO START:
+
+1. Double-click: start-simple.bat
+2. Wait for two windows to open
+3. Open browser: http://localhost:5173
+4. Register an account and test!
+
+========================================
+
+📋 MANUAL START:
+
+Terminal 1 (Backend):
+----------------------
+cd "C:\Users\sanja\Downloads\EduMate-Simple"
+npm start
+
+Terminal 2 (Frontend):
+----------------------  
+cd "C:\Users\sanja\Downloads\EduMate-Simple\frontend"
+npm install
+npm run dev
+
+========================================
+
+✅ WHAT WORKS:
+
+- User registration and login
+- Create projects
+- Add notes
+- Generate AI summaries
+- Generate AI quizzes  
+- Generate AI flashcards
+
+⚠️ NOTE: Data is stored in memory only!
+Data will be lost when you restart the server.
+
+========================================
+
+🆘 TROUBLESHOOTING:
+
+Problem: "Cannot find module"
+Fix: Run 'npm install' in that folder
+
+Problem: "Port already in use"  
+Fix: Kill the process using that port:
+  netstat -ano | findstr :3001
+  taskkill /PID <number> /F
+
+Problem: Node version warning
+Fix: Ignore it! Your v20.17.0 works fine
+
+========================================
+
+📁 PROJECT LOCATION:
+C:\Users\sanja\Downloads\EduMate-Simple
+
+📖 FULL DOCS:
+See README.md for complete documentation
+
+========================================
